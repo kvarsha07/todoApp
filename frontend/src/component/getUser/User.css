@@ -1,0 +1,62 @@
+/* User.css */
+
+/* Container styles for the user table */
+.user-table {
+    width: 90%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for all links within the user-table container */
+  .user-table a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  /* Hover state for links */
+  .user-table a:hover {
+    color: #2980b9;
+  }
+  
+  /* Table styling */
+  .user-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Table header and cell padding and border */
+  .user-table th,
+  .user-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Header background and bold text */
+  .user-table th {
+    background-color: #f4f4f4;
+  }
+  
+  /* Zebra striping for table rows */
+  .user-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Button styling */
+  .user-table button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Button hover effect */
+  .user-table button:hover {
+    background-color: #c0392b;
+  }
+  
